@@ -1,41 +1,47 @@
-html {
-  height: 100%;
-}
-
 body {
+  display: grid;
+  align-items: center;
+  justify-items: center;
   margin: 0;
   padding: 0;
-  background: linear-gradient(#141e30, #243b55);
   font-family: sans-serif;
 }
 
+form {
+}
+
 h1 {
-  color: #fff;
   text-align: center;
 }
 
 input {
-  width: 100%;
-  padding: 10px 0;
-  margin: 10px 0;
+  padding: 10px;
+  margin: 10px;
   font-size: 16px;
-  color: #fff;
   margin-bottom: 30px;
   border: none;
-  border-bottom: solid 1px #fff;
+  border-bottom: solid 1px #000;
   background: transparent;
   outline: none;
 }
 
 button {
   padding: 10px 20px;
-  color: #03e9f4;
   font-size: 16px;
+  margin: 10px;
 }
+
+label {
+  padding: 10px 0;
+  font-size: 16px;
+  color: #000;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
 .login-box {
-  display: relative;
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
+  margin: 100px;
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
